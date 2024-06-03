@@ -1,10 +1,9 @@
-# class Student:
-#     name = "Angela"
-#     school = "AkiraChix"
-#     code = 22
-#     age = 22
-    
 class Student:
+    name = "Angela"
+    school = "AkiraChix"
+    code = 22
+    age = 22
+    
         school ="AkiraChix"
         def __init__(self,firstname,lastname,age,country,code):
              self.firstname=firstname
@@ -19,5 +18,4 @@ class Student:
         
         def year_of_birth(self):
                return f"Hello {self.firstname} I was born {self.year_of_birth}"
-
         
