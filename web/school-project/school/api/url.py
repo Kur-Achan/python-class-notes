@@ -1,9 +1,9 @@
 from django.urls import path
-from.views import StudentListView
-from.views import ClassroomListView
-from.views import ClassListView
-from.views import CourseListView
-from.views import TeacherListView
+from .views import StudentListView
+from .views import ClassroomListView
+from .views import ClassListView
+from .views import CourseListView
+from .views import TeacherListView
 
 urlpatterns=[
     path("student/",StudentListView.as_view(),name="student_list_view"),

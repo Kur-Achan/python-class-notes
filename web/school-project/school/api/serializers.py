@@ -4,17 +4,18 @@ from classroom.models import Classroom
 from class.models import Class
 from course.models import Course
 from teacher.models import Teacher
+
 class StudentSerializer(serializers.ModelSerializer):
       class Meta:
            model= Student
            fields="__all__"
 class ClassroomSerializer(serializers.ModelSerializer):
-      class Meta:
+          class Meta:
            model= Classroom
            fields="__all__"
 class ClassesSerializer(serializers.ModelSerializer):
       class Meta:
-           model= Classes
+           model= Class
            fields="__all__"
 class CourseSerializer(serializers.ModelSerializer):
       class Meta:
